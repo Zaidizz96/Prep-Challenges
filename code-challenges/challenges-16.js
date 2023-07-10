@@ -93,10 +93,7 @@ const eveCharacter = (str) => {
 
 const chickenGradients = (arr) => {
     //write your code here ...
-    let newArr = arr.forEach(obj => {
-        obj.forEach(nestObj => (nestObj.contains('chicken')));
-    })
-    return newArr;
+    
 }
 // -------------------------------------------------------------------------------------------------------
 
